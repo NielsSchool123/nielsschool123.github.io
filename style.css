@@ -1,0 +1,21 @@
+
+body {
+    background-color: grey;
+     font-family: monospace;
+
+}
+
+.imgme {
+    width:10%;
+    height: 10%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.navigation{
+    float: top;
+}
+
+#section1{
+    margin-top: 100px;
+}
