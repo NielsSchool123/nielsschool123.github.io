@@ -1,21 +1,38 @@
 
+
 body {
-    background-color: grey;
-     font-family: monospace;
+  background-color: #363636;
+  font-family: monospace;
+  color: white;
 
-}
-
-.imgme {
-    width:10%;
-    height: 10%;
-    margin-left: 1rem;
-    margin-top: 1rem;
 }
 
 .navigation{
     float: top;
+    position: fixed;
 }
 
-#section1{
-    margin-top: 100px;
+#photo {
+  display: flex;
+  align-items: center;   
+
+}
+
+.imgme {
+  width: 200px; 
+  height: auto;
+  border-radius: 10px; 
+  
+}
+
+.info {
+  padding: 100px;
+}
+
+.headtxt{
+  font-size: 50px;
+}
+
+a{
+  color: lightblue;
 }
