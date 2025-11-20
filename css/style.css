@@ -14,7 +14,16 @@ body {
     padding: 10px;
 }
 
+.buttonnav:hover {
+    background-color: #444444;
+}
 
+.buttonnav {
+    color: lightblue;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
 
 .phototext {
   display: flex;
@@ -41,7 +50,6 @@ body {
 a{
   color: lightblue;
 }
-
 
 hr{
   height: 2px;
