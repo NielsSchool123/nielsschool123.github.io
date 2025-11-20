@@ -24,16 +24,16 @@ body {
 .imgme {
   width: 200px; 
   height: auto;
-  border-radius: 10px; 
-  
+  border-radius: 10px;
+
 }
 
 .name {
   padding: 100px;
   font-size: 25px;
-  background: -webkit-linear-gradient(white, #333333); /* gradient kleur element */
-  -webkit-background-clip: text; /* laat alleen de text zien */
-  -webkit-text-fill-color: transparent; /* zorgt dat de exhte text kleur niet ziet */
+  background: linear-gradient(white, #333333); /* gradient kleur element */
+  background-clip: text; /* laat alleen de text zien */
+  -webkit-text-fill-color: transparent; /* zorgt dat de exhte text kleur niet ziet (webkit omdat het nog niet standerdized is) */
 }
 
 .headtxt{
